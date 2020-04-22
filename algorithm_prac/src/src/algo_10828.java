@@ -99,10 +99,37 @@ public class algo_10828{
 		String order;
 		
 		for(int i = 0; i<=order_size; i++) {
-//			if(order.equals("pop")) {
-//				top++;
-//				stack[top] = sc.nextInt();
-//			}//else if()
+			order = sc.next();
+			if(order.equals("push")) {
+				top++;
+				stack[top] = sc.nextInt();
+			}else if(order == "pop") {
+				if(top == -1) {
+					System.out.println(-1);
+				}else {
+					System.out.println(stack[top]);
+					top--;
+				}
+			}else if(order.equals("empty")) {
+				if(top == -1) {
+					System.out.println(1);
+				}else {
+					System.out.println(0);
+				}
+			}else if(order.equals("size")) {
+				//size = number of elements a stack contains at present
+				//capacity = number of elements it is capable of holding
+				//int 배열로 선언했기 때문에 top에 +1
+				System.out.println(top+1);
+			}else if(order.equals("top")) {
+				if(top == -1) {
+					System.out.println(-1);
+				}else {
+					System.out.println(stack[top]);
+				}
+			}else {
+				System.out.println("입력할 수 없는 명령어입니다.");
+			}
 		}
 	}
 }
