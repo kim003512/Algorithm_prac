@@ -7,21 +7,21 @@ import java.util.Scanner;
 public class algo_10845 {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
-		
+
 		Queue<Integer> queue = new LinkedList<>();
-		
+
 		int order_size = sc.nextInt();
 		int value = 0; //why
 		String order;
-		
+
 		for(int i = 0; i < order_size; i++) {
 			order = sc.next();
-			
-			switch(order) {
-				case "push" :
-					value = sc.nextInt();
-					queue.add(value);
-					break;
+
+			if(order.equals("push")) {
+				value = sc.nextInt();
+				queue.add(value);
+			}else {
+				switch(order) {
 				case "pop" :
 					if(queue.isEmpty()) {
 						System.out.println(-1);
@@ -40,18 +40,29 @@ public class algo_10845 {
 					}
 					break;
 				case "front" :
-					if(queue.isEmpty()) {
-						System.out.println(-1);
-					}else {
-						System.out.println(queue.peek());
-					}
+//					if(queue.isEmpty()) {
+//						System.out.println(-1);
+//					}else {
+//						System.out.println(queue.peek());
+//					}
+					if(!queue.isEmpty())
+                        System.out.println(queue.peek());
+                    else 
+                        System.out.println("-1");
+                    break;
 				case "back" : 
-					if(queue.isEmpty()) {
-						System.out.println(-1);
-					}else {
-						System.out.println(value);
-					}
-					break;
+//					if(queue.isEmpty()) {
+//						System.out.println(-1);
+//					}else {
+//						System.out.println(value);
+//					}
+//					break;
+					if(!queue.isEmpty())
+                        System.out.println(value);
+                    else 
+                        System.out.println("-1");
+                    break;
+				}
 			}
 		}
 	}
