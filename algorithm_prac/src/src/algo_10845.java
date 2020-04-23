@@ -17,7 +17,7 @@ public class algo_10845 {
 		for(int i = 0; i < order_size; i++) {
 			order = sc.next();
 
-			if(order.equals("push")) {
+			if(order.equals("push")) { //왜 push랑 나눈지 머르겠음
 				value = sc.nextInt();
 				queue.add(value);
 			}else {
@@ -40,7 +40,8 @@ public class algo_10845 {
 					}
 					break;
 				case "front" :
-//					if(queue.isEmpty()) {
+					//왜 isEmpty()일때는 안되는지 머르겠음
+//					if(queue.isEmpty()) {   
 //						System.out.println(-1);
 //					}else {
 //						System.out.println(queue.peek());
