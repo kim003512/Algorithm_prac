@@ -4,7 +4,7 @@ import java.util.LinkedList;
 import java.util.Queue;
 import java.util.Scanner;
 
-public class algo_10845 {
+public class algo_10845_queue {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 

@@ -89,7 +89,7 @@ import java.util.Stack;
 //	}
 //}
 
-public class algo_10828{
+public class algo_10828_stack{
 	public static void main(String args[]) throws Exception{
 		Scanner sc = new Scanner(System.in);
 		
