@@ -3,7 +3,7 @@ package src;
 import java.util.*;
 import java.io.*;
 
-public class algo_11004{
+public class algo_11004_k{
 	
  	static int k,n;
 	public static int partition(int[] array, int left, int right) {
