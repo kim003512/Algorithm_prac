@@ -42,11 +42,19 @@ public class algo_1463_dp{
 		for(int i = 2; i <= num; i++) {
 			count[i] = count[i-1] + 1;
 			//..................?
+			//2와 3으로 둘 다 나누어 지는 경우가 있기 때문에 무엇이 더 좋을지를 알기?위해서는 if로 써야됨
 			if(i % 2 == 0) 
 				count[i] = Math.min(count[i], count[i/2] + 1);
 			//else if로 쓰면 왜 안되는가
 			if(i % 3 == 0) 
 				count[i] = Math.min(count[i], count[i/3] + 1);
+			
+			//이걸로 해도 맞음
+//			if(i % 3 == 0) 
+//				count[i] = Math.min(count[i], count[i/3] + 1);
+//			//else if로 쓰면 왜 안되는가
+//			else if(i % 2 == 0) 
+//				count[i] = Math.min(count[i], count[i/2] + 1);
 		}
 		System.out.println(count[num]);
 		sc.close();

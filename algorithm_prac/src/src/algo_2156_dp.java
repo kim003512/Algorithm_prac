@@ -19,10 +19,10 @@ public class algo_2156_dp {
 			wine[i] = sc.nextInt();
 		}
 		
-		drink[1] = wine[1];
+		//drink[1] = wine[1];
 		
 		//1인 경우 예외 발생
-		if(num > 1) drink[2] = wine[1] + wine[2];
+		//if(num > 1) drink[2] = wine[1] + wine[2];
 		
 		for(int i=3; i<= num; i++) {
 			drink[i] = Math.max(drink[i-1], Math.max(wine[i]+drink[i-2], wine[i]+wine[i-1]+drink[i-3]));
