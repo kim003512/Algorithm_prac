@@ -8,3 +8,7 @@
 - 1463번 -dp (https://www.acmicpc.net/problem/1463)
 - 1149번 - dp (https://www.acmicpc.net/problem/1149)
 - 2156번 - dp (https://www.acmicpc.net/problem/2156)
+- 2225번 - dp (https://www.acmicpc.net/problem/2225)
+- 11726번 - dp (https://www.acmicpc.net/problem/11726)
+- 9461번 - dp (https://www.acmicpc.net/problem/9461)
+-2293번 - dp (https://www.acmicpc.net/problem/2293)
