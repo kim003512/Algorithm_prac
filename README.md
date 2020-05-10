@@ -12,3 +12,7 @@
 - 11726번 - dp (https://www.acmicpc.net/problem/11726)
 - 9461번 - dp (https://www.acmicpc.net/problem/9461)
 - 2293번 - dp (https://www.acmicpc.net/problem/2293)
+- 3036번 - 최소공배수 (https://www.acmicpc.net/problem/3036)
+- 2609번 - 최대공약수 & 최소공배수 (https://www.acmicpc.net/problem/2609)
+- 14501번 - dp (https://www.acmicpc.net/problem/14501)
+- 1932번 - dp (https://www.acmicpc.net/problem/1932)
