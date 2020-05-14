@@ -16,6 +16,15 @@ public class algo_1932_dp {
 		for(int i = 1; i<=n; i++) {
 			for(int j=1; j<=i; j++) {
 				tri[i][j] = sc.nextInt();
+				
+				if(j==1)
+					//
+				else if(j==i)
+				
+				
+				
+			
+			
 			}
 		}
 	}
