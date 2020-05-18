@@ -16,3 +16,6 @@
 - 2609번 - 최대공약수 & 최소공배수 (https://www.acmicpc.net/problem/2609)
 - 14501번 - dp (https://www.acmicpc.net/problem/14501)
 - 1932번 - dp (https://www.acmicpc.net/problem/1932)
+- 1890번 - dp (https://www.acmicpc.net/problem/1890)
+- 1026번 - 정렬 (https://www.acmicpc.net/problem/1026)
+
