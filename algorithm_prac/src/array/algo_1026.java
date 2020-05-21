@@ -34,5 +34,4 @@ public class algo_1026 {
 		
 		System.out.println(sum);
 	}
-
 }
