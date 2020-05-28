@@ -29,7 +29,7 @@ public class algo_11724 {
         for (int i = 1; i <= N ; i++) { //i is a index of node to visit
             if(visit[i] == 0){
                 cnt++;
-                dfs(i);
+               // dfs(i);
             }
         }
         System.out.println(cnt);
