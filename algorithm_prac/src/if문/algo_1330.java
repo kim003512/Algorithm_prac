@@ -10,8 +10,8 @@ public class algo_1330 {
 		int a = s.nextInt();
 		int b= s.nextInt();
 		
-		if(a==b) System.out.println("=");
+		if(a>b) System.out.println(">");
 		else if(a<b) System.out.println("<");
-		else if(a>b) System.out.println(">");
+		else System.out.println("=");
 	}
 }
